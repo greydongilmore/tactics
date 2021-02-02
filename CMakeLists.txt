@@ -111,7 +111,7 @@ add_subdirectory(src/view)
 add_subdirectory(src/dicom)
 add_subdirectory(src/processing)
 add_subdirectory(src/tactics)
-//add_subdirectory(test)
+#add_subdirectory(test)
 
 #
 # Copy icons
