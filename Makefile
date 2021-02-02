@@ -6,7 +6,7 @@ SHELL := /bin/bash
 RM    := rm -rf
 
 all: ./build/Makefile
-	@ $(MAKE) -C build
+	@ $(MAKE) -C build -lz
 
 ./build/Makefile:
 	@ (mkdir -p build >/dev/null && cd build >/dev/null 2>&1 && cmake ..)
