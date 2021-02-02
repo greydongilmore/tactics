@@ -228,7 +228,7 @@ void cbElectrodeController::log(QString m)
 
 void cbElectrodeController::requestOpenImage(const QStringList& files)
 {
-  assert(path && "Path can't be NULL!");
+  //assert(path && "Path can't be NULL!");
 
   emit initializeProgress(0, 100);
   emit displayStatus("Loading primary image...");
@@ -283,7 +283,7 @@ void cbElectrodeController::requestOpenImage(const QStringList& files)
 void cbElectrodeController::OpenImageWithMatrix(
   const QStringList& files, vtkMatrix4x4 *m)
 {
-  assert(path && "Path can't be NULL!");
+  //assert(path && "Path can't be NULL!");
 
   emit initializeProgress(0, 100);
   emit displayStatus("Loading primary image...");
